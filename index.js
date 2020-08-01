@@ -5,7 +5,7 @@ app.use(cors())
 
 
 app.get('/', (req, res) => {
-    res.send('{"var":1, "vector": [{"var1":1, "var2": 2]}')
+    res.send('{"var":1, "vector": [{"var1":1, "var2": 2}, {"var1":3, "var2": 4}]')
 })
 
 app.listen(process.env.PORT || 3000);
